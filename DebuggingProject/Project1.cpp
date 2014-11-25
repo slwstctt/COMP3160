@@ -21,6 +21,10 @@ int main(int nNumberofArgs, char *pszArgs[])
 	nNums = 0;
 	while(true)
 	{
+		// Debugging Output to check if values are as expected.
+		cout << “nNums = “ << nNums << endl;
+		
+		
 		// enter another number to add
 		int nValue;
 		cout << "Enter another number:";
