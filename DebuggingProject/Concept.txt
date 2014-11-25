@@ -1,0 +1,18 @@
+The idea here is that for a Debugging Lesson, you can have a section of your repository where there is code that needs 
+  debugging, commenting, or other work. It's an important lesson for students to understand that they won't always be
+  working with code that they made. It's common to inherit the problems of past programmers or have to dig through legacy
+  code to fix an old bug.
+  
+The students can fork the code found in the repository, work on it under their own GitHub account, and then push the changes
+  to the instructor or link the instructor directly to their own GitHub page for their solution. Versioning systems like
+  git make it easy to spot unscrupulous students, since it will be obvious when foul play is at hand. If a large portion of
+  students have similar or identical changelogs, fixed the entire block of code in exactly the same way in one commit,
+  or have very short turnover times for their work (as you'd expect with a copy paste job), the changelogs will show 
+  this, and a simple diff between submitted solutions will make copied work aparrant.
+  
+Here, the example is a chunk of C++ code with errors in it, taken from http://www.cplusplus.com/forum/articles/28767/.
+
+Playing the role as the student, I have forked this code, made changes in a several commits, then made a push request.
+  It's easy to look over my work and see what changes I made to the code. If I worked on it over several sessions, such
+  as if it were a long or hard project, then you could even get an idea of my thought process in making the solution, 
+  since each commit will be shown in the request.
